@@ -38,7 +38,6 @@ main section article {
     margin: 60px 10px;
 }
 
-
 main aside{
     width: 190px;
     height: 100%;
@@ -47,7 +46,8 @@ main aside{
 }
 footer{
     height: 50px;
-    width: 100%;
+    background-color: green;
+    margin: 10px;
 }
 
 
