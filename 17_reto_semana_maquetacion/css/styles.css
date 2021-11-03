@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#content-menus{
+    width: 800px;
+    margin: auto;
+}
+
+.menu-item{
+    background: #fff;
+    padding: 30px;
+    margin: 50px 7%;
+    font-size: 18px;
+    float: left;
+    width: 28%;
+    box-shadow: 5px 10px #383838 ;    
+}
+.menu-item h4 {
+    font-size: 20px;
+    margin-left: 20%;
+}
+.menu-item ul {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.menu-item .price {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 50%;
+}
+.menu-item i {
+    font-size: 30px;
+}
+
+.header-menu{
+    min-height: 45px;
+    float: left;
+}
+
+
+
