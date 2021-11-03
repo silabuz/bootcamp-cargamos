@@ -1,30 +1,28 @@
-.sombra {
-    box-shadow: 1px 1px 5px black;
+.sombra{
+    box-shadow: 1px 1px 5px #4d4d4d;
 }
 
 h1 + p, h2 + p{
     color: blue;
 }
 
-h1, h2, .text-danger{
-    color: rgb(255, 1, 128);
+h1, h2, .text-danger {
+    color: crimson;
 }
 
-p .badge-black{
+p .badge-black {
     background-color: black;
     color: white;
 }
-
-ul > li{
+ul > li {
     color: goldenrod;
     font-style: italic;
 }
-
 ol > li {
-    font-weight: bold;
     font-style: normal;
+    font-weight: bold;
 }
 
-.text-success, ol li {
+.text-success, ol > li{
     color: green;
 }

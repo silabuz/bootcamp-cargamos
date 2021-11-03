@@ -21,29 +21,25 @@ body {
     width: 28%;
     box-shadow: 5px 10px #383838 ;    
 }
+
 .menu-item h4 {
-    font-size: 20px;
-    margin-left: 20%;
+    font-size: 24px;
+    display: inline;
+    margin-left: 10px;
 }
+
 .menu-item ul {
     list-style: none;
     margin-left: 30px;
     margin-top: 15px;
 }
+
+.menu-item footer {
+    text-align: right;
+}
+
 .menu-item .price {
-    margin-top: 15px;
     font-weight: bold;
     font-size: 28px;
-    margin-left: 50%;
 }
-.menu-item i {
-    font-size: 30px;
-}
-
-.header-menu{
-    min-height: 45px;
-    float: left;
-}
-
-
 
