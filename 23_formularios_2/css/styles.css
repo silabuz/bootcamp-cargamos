@@ -1,10 +1,13 @@
 *{
     font-size: large;
 }
+form {
+    margin-bottom: 50vh;
+}
 
 input, select{
     display: block;
-}
+} 
 
 input[type='radio'], input[type='checkbox'] {
     display: inline;
