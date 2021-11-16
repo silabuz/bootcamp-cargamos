@@ -1,0 +1,10 @@
+/* Tema personalizado */
+@import url('../../theme/index.css');
+/* Variables locales */
+@import url('local_vars.css');
+
+/* Estilos locales */
+
+.bg-blue{
+    background: var(--color-blue);
+}
