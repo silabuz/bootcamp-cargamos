@@ -4,7 +4,7 @@
  }
  .container {
      background-color: steelblue;
-     width: 100%;
+     width: 800px;
      height: 100vh;
      margin: auto;
      display: flex; 
@@ -20,13 +20,14 @@
      font-size: x-large;
 
      /* Tamaño base -> row(width) column(height) */
-     flex-basis:200px;
+     flex-basis:100px;
      /* ¿ Cuanto voy a crecer ?*/
      flex-grow: 1;
  }
  .item:nth-child(even){
      background-color: slateblue;
  }
+ 
  .item:nth-child(2){
     flex-grow: 3;
  }
