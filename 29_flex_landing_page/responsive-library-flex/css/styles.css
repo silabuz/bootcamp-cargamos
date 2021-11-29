@@ -14,19 +14,20 @@ nav > a {
     text-decoration: none;
     padding: 10px 20px ;
 }
-footer ul>li a{
+footer .social{
+    background: var(--info-color);
+}
+footer .social a{
     color: white;
     text-decoration: none;
-    background: var(--info-color);
-    padding: 10px 10px ;
-}
-footer ul>li {
-    list-style: none;
+    padding: 10px ;
+    display: inline-block;
 }
 
 aside > div {
-    height: 50%;
+    height: 100px;
 }
+
 hr {
     margin: 10px 0px;
 }
@@ -35,3 +36,6 @@ hr {
     height: 50px;
     background-color: gray;
 }
+
+
+

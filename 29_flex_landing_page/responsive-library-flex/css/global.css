@@ -135,3 +135,17 @@
     .ma-2{
         margin: 20px;
     }
+
+
+
+    @media screen and (max-width: 800px) {
+
+        .flex-md-column{
+            flex-direction: column !important;
+        }
+        .align-items-md-center{
+            align-items: center !important;
+        }
+        
+       
+    }
